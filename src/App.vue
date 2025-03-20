@@ -3,54 +3,14 @@
     <nav class="tab-menu">
       <router-link to="/home" class="tab" active-class="active">Home</router-link>
       <router-link to="/data-binding" class="tab" active-class="active">Data Binding</router-link>
+      <router-link to="/prop-drilling" class="tab" active-class="active">Prop Drilling</router-link>
       <router-link to="/todos" class="tab" active-class="active">Todo List</router-link>
       <router-link to="/vuex" class="tab" active-class="active">Todo List using Vuex</router-link>
     </nav>
     <router-view/>
     <img alt="Vue logo" src="./assets/logo.png">
-    <h1>Parent Component</h1>
-    <input v-model="sharedState.message" />
-    <ChildComponent />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <TodoList />
   </div>
 </template>
-
-<script>
-import ChildComponent from './ChildComponent.vue';
-import HelloWorld from './components/HelloWorld.vue';
-
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-    ChildComponent,
-  },
-  data() {
-    return {
-      // Use a reactive object
-      sharedState: {
-        message: 'Hello from Parent!',
-      },
-    };
-  },
-  provide() {
-    return {
-      // Provide the entire reactive object
-      sharedState: this.sharedState,
-      // You can also provide methods
-      greet: this.greet,
-    };
-  },
-  methods: {
-    greet() {
-      alert('Greetings from Parent!');
-    },
-  },
-};
-</script>
-
 
 <style>
 #app {
