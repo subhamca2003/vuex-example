@@ -8,6 +8,8 @@ import PropDrilling from './components/props-drilling/PropsDrilling.vue';
 import WatchExample from './components/watch/WatchExample.vue';
 import ComputedComponent from './components/watch/ComputedComponent.vue';
 import NextTickExample from './components/watch/NextTickExample.vue';
+import CallbacksComponent from './components/watch/CallbacksComponent.vue';
+import PromisesExample from './components/watch/PromisesExample.vue';
 import ColorChange from './components/custom-directive/ColorChange.vue';
 
 
@@ -58,6 +60,16 @@ const routes = [
         path: '/next-tick-example',
         name: 'NextTickExample',
         component: NextTickExample,
+    },
+    {
+        path: '/callbacks-example',
+        name: 'CallbacksComponent',
+        component: CallbacksComponent,
+    },
+    {
+        path: '/promises-example',
+        name: 'PromisesExample',
+        component: PromisesExample,
     }
 ];
 

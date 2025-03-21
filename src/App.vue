@@ -10,6 +10,8 @@
       <router-link to="/computed-example" class="tab" active-class="active">Computed</router-link>
       <router-link to="/custom-directive" class="tab" active-class="active">custom directive</router-link>
       <router-link to="/next-tick-example" class="tab" active-class="active">NextTickExample</router-link>
+      <router-link to="/callbacks-example" class="tab" active-class="active">callbacks-example</router-link>
+      <router-link to="/promises-example" class="tab" active-class="active">promises-example</router-link>
     </nav>
     <router-view/>
     <img alt="Vue logo" src="./assets/logo.png">
