@@ -8,6 +8,8 @@
       <router-link to="/vuex" class="tab" active-class="active">Todo List using Vuex</router-link>
       <router-link to="/watch-example" class="tab" active-class="active">Watch</router-link>
       <router-link to="/computed-example" class="tab" active-class="active">Computed</router-link>
+      <router-link to="/custom-directive" class="tab" active-class="active">custom directive</router-link>
+      <router-link to="/next-tick-example" class="tab" active-class="active">NextTickExample</router-link>
     </nav>
     <router-view/>
     <img alt="Vue logo" src="./assets/logo.png">

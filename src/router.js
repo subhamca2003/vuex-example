@@ -7,6 +7,9 @@ import DataBinding from './components/databinding/DataBinding.vue';
 import PropDrilling from './components/props-drilling/PropsDrilling.vue';
 import WatchExample from './components/watch/WatchExample.vue';
 import ComputedComponent from './components/watch/ComputedComponent.vue';
+import NextTickExample from './components/watch/NextTickExample.vue';
+import ColorChange from './components/custom-directive/ColorChange.vue';
+
 
 Vue.use(Router);
 
@@ -45,6 +48,16 @@ const routes = [
         path: '/computed-example',
         name: 'Computed Example',
         component: ComputedComponent,
+    },
+    {
+        path: '/custom-directive',
+        name: 'Custom Directive',
+        component: ColorChange,
+    },
+    {
+        path: '/next-tick-example',
+        name: 'NextTickExample',
+        component: NextTickExample,
     }
 ];
 
