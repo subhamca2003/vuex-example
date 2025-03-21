@@ -6,6 +6,8 @@
       <router-link to="/prop-drilling" class="tab" active-class="active">Prop Drilling</router-link>
       <router-link to="/todos" class="tab" active-class="active">Todo List</router-link>
       <router-link to="/vuex" class="tab" active-class="active">Todo List using Vuex</router-link>
+      <router-link to="/watch-example" class="tab" active-class="active">Watch</router-link>
+      <router-link to="/computed-example" class="tab" active-class="active">Computed</router-link>
     </nav>
     <router-view/>
     <img alt="Vue logo" src="./assets/logo.png">

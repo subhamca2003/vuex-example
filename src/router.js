@@ -5,6 +5,8 @@ import Home from './components/HomePage.vue'; // You will create this component 
 import TodoListVuex from './components/vuex/TodoList.vue';
 import DataBinding from './components/databinding/DataBinding.vue';
 import PropDrilling from './components/props-drilling/PropsDrilling.vue';
+import WatchExample from './components/watch/WatchExample.vue';
+import ComputedComponent from './components/watch/ComputedComponent.vue';
 
 Vue.use(Router);
 
@@ -33,6 +35,16 @@ const routes = [
         path: '/prop-drilling',
         name: 'Prop Drilling',
         component: PropDrilling,
+    },
+    {
+        path: '/watch-example',
+        name: 'Watch Example',
+        component: WatchExample,
+    },
+    {
+        path: '/computed-example',
+        name: 'Computed Example',
+        component: ComputedComponent,
     }
 ];
 
