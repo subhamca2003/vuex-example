@@ -8,10 +8,14 @@
       <router-link to="/vuex" class="tab" active-class="active">Todo List using Vuex</router-link>
       <router-link to="/watch-example" class="tab" active-class="active">Watch</router-link>
       <router-link to="/computed-example" class="tab" active-class="active">Computed</router-link>
+    </nav>
+    <nav class="tab-menu">
       <router-link to="/custom-directive" class="tab" active-class="active">custom directive</router-link>
       <router-link to="/next-tick-example" class="tab" active-class="active">NextTickExample</router-link>
       <router-link to="/callbacks-example" class="tab" active-class="active">callbacks-example</router-link>
       <router-link to="/promises-example" class="tab" active-class="active">promises-example</router-link>
+      <router-link to="/callback-hell" class="tab" active-class="active">Callback Hell-example</router-link>
+      <router-link to="/async-await" class="tab" active-class="active">AsyncAwait</router-link>
     </nav>
     <router-view/>
     <img alt="Vue logo" src="./assets/logo.png">

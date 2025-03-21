@@ -10,6 +10,8 @@ import ComputedComponent from './components/watch/ComputedComponent.vue';
 import NextTickExample from './components/watch/NextTickExample.vue';
 import CallbacksComponent from './components/watch/CallbacksComponent.vue';
 import PromisesExample from './components/watch/PromisesExample.vue';
+import CallbackHell from './components/watch/CallbackHell.vue';
+import AsyncAwait from './components/watch/AsyncAwait.vue';
 import ColorChange from './components/custom-directive/ColorChange.vue';
 
 
@@ -70,6 +72,16 @@ const routes = [
         path: '/promises-example',
         name: 'PromisesExample',
         component: PromisesExample,
+    },
+    {
+        path: '/callback-hell',
+        name: 'Callback Hell',
+        component: CallbackHell,
+    },
+    {
+        path: '/async-await',
+        name: 'AsyncAwait',
+        component: AsyncAwait,
     }
 ];
 
