@@ -13,6 +13,9 @@ import PromisesExample from './components/watch/PromisesExample.vue';
 import CallbackHell from './components/watch/CallbackHell.vue';
 import AsyncAwait from './components/watch/AsyncAwait.vue';
 import ColorChange from './components/custom-directive/ColorChange.vue';
+import UsersList from './components/users/UsersList.vue';
+import Login from './components/users/LoginComponent.vue';
+import ProfileComponent from './components/users/ProfileComponent.vue';
 
 
 Vue.use(Router);
@@ -82,7 +85,22 @@ const routes = [
         path: '/async-await',
         name: 'AsyncAwait',
         component: AsyncAwait,
-    }
+    },
+    {
+        path: '/user-list',
+        name: 'UsersList',
+        component: UsersList,
+    },
+    {
+        path: '/login',
+        name: 'Login',
+        component: Login,
+    },
+    {
+        path: '/my-profile',
+        name: 'ProfileComponent',
+        component: ProfileComponent,
+    },
 ];
 
 export default new Router({
