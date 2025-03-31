@@ -16,6 +16,7 @@ import ColorChange from './components/custom-directive/ColorChange.vue';
 import UsersList from './components/users/UsersList.vue';
 import Login from './components/users/LoginComponent.vue';
 import ProfileComponent from './components/users/ProfileComponent.vue';
+import ProductList from './components/product/ProductList.vue'
 
 
 Vue.use(Router);
@@ -100,6 +101,11 @@ const routes = [
         path: '/my-profile',
         name: 'ProfileComponent',
         component: ProfileComponent,
+    },
+    {
+        path: '/product-list',
+        name: 'ProductList',
+        component: ProductList,
     },
 ];
 

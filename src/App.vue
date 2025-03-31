@@ -6,6 +6,7 @@
       <router-link to="/vuex" class="tab" active-class="active">Todo List using Vuex</router-link>
       <router-link to="/watch-example" class="tab" active-class="active">Watch</router-link>
       <router-link to="/computed-example" class="tab" active-class="active">Computed</router-link>
+      <router-link to="/product-list" class="tab" active-class="active">Product</router-link>
       <router-link v-if="!isAuthenticated" to="/login" class="tab" active-class="active">Login</router-link>
       <router-link v-if="isAuthenticated" to="/my-profile" class="tab" active-class="active">Profile</router-link>
       <router-link v-if="isAuthenticated" to="/user-list" class="tab" active-class="active">user-list</router-link>
